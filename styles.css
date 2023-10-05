@@ -1,0 +1,26 @@
+body {
+    background: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    background-color: cornflowerblue;
+    font-size: larger;
+    font-weight: bolder;
+    height: 8vh;
+    border-radius: 5px;
+    display: flex;
+}
+
+#navtext {
+    text-align: center;
+}
+
+nav #logo {
+    margin-left: 0.5vw;
+    margin-top: 0.5vh;
+    height: 7vh;
+    background-color: coral;
+    border-radius: 5px;
+}
