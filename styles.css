@@ -1,3 +1,6 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
 body {
     background-image: url(assets/bg.png);
     background-color: rgb(20, 20, 20);
@@ -65,21 +68,27 @@ a {
     color: white;
 }
 
-.buttons {
-    margin-left: -40px;
-}
-
 .downloads {
     height: fit-content;
     background-color: rgb(20, 20, 20);
     border-radius: 15px;
-    display: block;
 }
 
 nav .buttons {
     position: absolute;
     display: inline-flex;
-    padding-left: 87%;
+    padding-left: 82%;
+}
+
+.downloads .button {
+    align-self: center;
+    display: flex;
+    margin-block: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    align-self: center;
+    width: 190px;
 }
 
 .downloads #text {
@@ -117,4 +126,20 @@ footer {
     display: block;
     padding-top: 10px;
     height: 10vh;
+}
+
+.supported {
+    display: inline-flex;
+    align-self: center;
+    align-items: center;
+}
+
+#supported {
+    transform: scale(2.5);
+    padding: 10px;
+    margin-right: 20px;
+}
+
+#supported:last-child {
+    margin-right: 0;
 }
