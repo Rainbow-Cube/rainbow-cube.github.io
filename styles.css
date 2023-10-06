@@ -1,5 +1,8 @@
 body {
-    background: black;
+    background-image: url(assets/bg.png);
+    background-color: rgb(20, 20, 20);
+    background-repeat: no-repeat;
+    background-size: contain;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: grid;
@@ -71,7 +74,6 @@ a {
     height: fit-content;
     background-color: rgb(20, 20, 20);
     border-radius: 15px;
-    align-content: center;
     display: block;
 }
 
@@ -96,9 +98,18 @@ nav .buttons {
     height: fit-content;
     width: 50vw;
     font-size: large;
-    background-color: #8345a0;
     border-radius: 15px;
     transform: scale(0.8);
+    background-color: rgba(0, 0, 0, 0.459);
+    backdrop-filter: blur(1.5rem);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.description #text {
+    filter: none;
 }
 
 footer {
