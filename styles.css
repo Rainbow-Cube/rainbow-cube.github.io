@@ -9,7 +9,7 @@ body {
 }
 
 nav {
-    background-color: cornflowerblue;
+    background-color: rgba(75, 75, 75, 0.486);
     font-size: 30px;
     font-weight: bolder;
     height: 8vh;
@@ -29,7 +29,6 @@ nav #logo {
     height: 7vh;
     padding-left: 4px;
     padding-right: 4px;
-    background-color: coral;
     border-radius: 5px;
 }
 
@@ -42,7 +41,7 @@ li {
 }
 
 .button {
-    background-color: coral;
+    background-color: #FF4F4F;
     border: none;
     color: white;
     padding: 10px 20px;
