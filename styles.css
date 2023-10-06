@@ -2,25 +2,109 @@ body {
     background: black;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
 }
 
 nav {
     background-color: cornflowerblue;
-    font-size: larger;
+    font-size: 30px;
     font-weight: bolder;
     height: 8vh;
+    width: 100%;
+    align-items: center;
     border-radius: 5px;
     display: flex;
 }
 
 #navtext {
+    justify-content: center;
     text-align: center;
 }
 
 nav #logo {
     margin-left: 0.5vw;
-    margin-top: 0.5vh;
     height: 7vh;
+    padding-left: 4px;
+    padding-right: 4px;
     background-color: coral;
     border-radius: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+.main {
+    display: flex;
+}
+
+.button {
+    background-color: coral;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 4px;
+  }
+  
+  .button:hover {
+    background-color: #8345a0;
+  }
+  
+  .button:active {
+    background-color: #8345a0;
+  }
+a {
+    color: white;
+}
+
+.buttons {
+    margin-left: -40px;
+}
+
+.downloads {
+    height: fit-content;
+    background-color: rgb(20, 20, 20);
+    border-radius: 15px;
+    align-content: center;
+    display: block;
+}
+
+nav .buttons {
+    position: absolute;
+    display: inline-flex;
+    padding-left: 87%;
+}
+
+.downloads #text {
+    font-size: 50px;
+}
+
+.main {
+    height: 100vh;
+}
+
+.description {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 10px;
+    height: fit-content;
+    width: 50vw;
+    font-size: large;
+    background-color: #8345a0;
+    border-radius: 15px;
+    transform: scale(0.8);
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+    display: block;
+    padding-top: 10px;
+    height: 10vh;
 }
