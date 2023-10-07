@@ -12,3 +12,7 @@ function showSkins() {
     let skins = "<h1>Skins</h1>Soon"
     document.getElementsByClassName('wiki')[0].innerHTML = skins;
 }
+
+function what() {
+    document.getElementsByClassName('wiki')[0].innerHTML = "I love Poland.. HUH! HOW'D YOU GET HERE!?";
+}
