@@ -9,10 +9,14 @@ function showAbout() {
 }
 
 function showSkins() {
-    let skins = "<h1>Skins</h1>Soon"
+    let skins = '<center><h1>Skins</h1><img src="/assets/skins.png">'
     document.getElementsByClassName('wiki')[0].innerHTML = skins;
 }
 
 function what() {
     document.getElementsByClassName('wiki')[0].innerHTML = "I love Poland.. HUH! HOW'D YOU GET HERE!?";
+}
+
+function eastereggs() {
+    document.getElementsByClassName('wiki')[0].innerHTML = "Just find them."
 }
