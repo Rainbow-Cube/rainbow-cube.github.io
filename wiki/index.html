@@ -8,7 +8,7 @@
 <html>
     <head>
         <title>Rainbow Cube [ Open Beta ]</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="/styles.css">
         <meta name="title" content="Rainbow Cube">
         <meta name="description" content="Play Rainbow Cube, the new 2D platformer!">
         <meta property="og:image" content="https://cdn.discordapp.com/attachments/1158886850329583718/1159947984176435321/image.png?ex=6532e0be&is=65206bbe&hm=6ab57a4e0dcc08bf6434d3038345bdf211c2890c805ec336d4680ef8f86c4096&">
@@ -16,29 +16,26 @@
     </head>
     <body>
         <nav>
-            <img id="logo" src="assets/logo.png">
+            <img id="logo" src="/assets/logo.png">
             <div class="navitems">
                 <ul>
-                    <span id="navtext">Rainbow Cube</span>
+                    <span id="navtext">Rainbow Cube Wiki</span>
                 </ul>
             </div>
             <div class="buttons">    
-                <li><a class="button" href="wiki/index.html"> </i>Wiki</a></li>
+                <li><a class="button" href="/index.html"> </i>&ThickSpace;Home</a></li>
                <li><a class="button" href="https://discord.gg/hCtNpT5kCg"><i class="fi fi-brands-discord"> </i>Discord</a></li>
                <li><a class="button" href="#dwnld"><i class="fi fi-rr-download"> </i>Downloads</a></li>
             </div>
         </nav>
         <div class="main">
-            <div class="description">
-                <div id="text">
-                    Play Rainbow Cube, the new 2D platformer!<br> Fight against Boss in different modes:<br> Normal, R and Wall! <br>Discover all the secret levels hidden in other levels.<br>
-                    Rainbow Cube is a 2D platformer with many levels that differ in difficulty levels, the game also has modes:<br> Normal - this is the basic mode, it does not have any "Additional" mechanics, R - this mode is to change the background so that platforms and opponents will be more visible, Wall - this mode is to run away from the wall that is constantly going towards you so you can not stop. The game also has amazing background music. There will also be new game modes in the future, but everything in its own time. The game also has a multiplayer that is currently in beta. There you can race against other players by collecting a large number of rainbow gems - this is the best option to earn! In the future, multiplayer will be more extensive.
-                    The goal of the game "Rainbow cube" is to go through all levels and defeat bosses from each mode:<br>
-                    *Normal mode - This is a triangle that as one goal in its existence is to destroy every Cube in this world.<br>
-                    *R mode: She's a spider queen who is psychic, has no purpose in defeating cubes, but she does it for fun, if you her off she won't be so friendly.<br>
-                    *Wall mode: This is an earthworm that is just so hungry that it eats everything in its path, including the rainbow cube.</div>
+            <div class="wikibar">
+                <div class="buttons">
+                    <li><a class="button" onclick="showControls()">Controls</a></li><br>
+                    <li><a class="button" onclick="showAbout()">About</a></li><br>
                 </div>
             </div>
+            <div class="wiki">Click any button on left side</div>
         </div>
         <div class="downloads">
             <p id="dwnld"><span id="text"><center>Downloads</span></p>
@@ -55,7 +52,8 @@
             <footer>
                 <li>Website still in progress (game too) <br>website version: v<span id="version"></span></li>
             </footer>
-        <script src="assets/js/huh.js"></script>
+        <script src="/assets/js/huh.js"></script>
+        <script src="wiki.js"></script>
         <audio src="https://cdn.discordapp.com/attachments/1103342596870393907/1159946451019903097/tutorial_theme.mp3?ex=6532df50&is=65206a50&hm=37e8203e966a1edcdc676c94859a73e91da4f89f6a6a93af9f1146e2fc29a9a3&" autoplay loop></audio>
     </body>
 </html>

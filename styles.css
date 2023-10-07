@@ -81,7 +81,7 @@ a {
 nav .buttons {
     position: absolute;
     display: inline-flex;
-    padding-left: 82%;
+    padding-left: 76%;
 }
 
 .downloads .button {
@@ -146,4 +146,32 @@ footer {
 
 #supported:last-child {
     margin-right: 0;
+}
+
+.wikibar {
+    display: block;
+    margin: 20px;
+    margin-top: 5px;
+    background-color: rgba(75, 75, 75, 0.486);
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.wiki {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 10px;
+    height: fit-content;
+    width: 50vw;
+    font-size: large;
+    border-radius: 15px;
+    transform: scale(0.8);
+    background-color: rgba(0, 0, 0, 0.459);
+    backdrop-filter: blur(1.5rem);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
