@@ -20,3 +20,11 @@ function what() {
 function eastereggs() {
     document.getElementsByClassName('wiki')[0].innerHTML = "Just find them."
 }
+
+const button = document.getElementById('logo');
+
+button.addEventListener('dblclick', huh);
+
+function huh() {
+    alert('code: birds | shhhh')
+}
