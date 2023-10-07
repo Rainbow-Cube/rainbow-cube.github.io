@@ -7,3 +7,8 @@ function showAbout() {
     let about = "<h1>About</h1>idk, ask budynofficial"
     document.getElementsByClassName('wiki')[0].innerHTML = about;
 }
+
+function showSkins() {
+    let skins = "<h1>Skins</h1>Soon"
+    document.getElementsByClassName('wiki')[0].innerHTML = skins;
+}

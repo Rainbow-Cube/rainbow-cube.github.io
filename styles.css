@@ -1,5 +1,6 @@
 @import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
 @import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
 
 body {
     background-image: url(assets/bg.png);
@@ -81,7 +82,8 @@ a {
 nav .buttons {
     position: absolute;
     display: inline-flex;
-    padding-left: 76%;
+    padding-left: 80%;
+    scale: 0.9;
 }
 
 .downloads .button {
