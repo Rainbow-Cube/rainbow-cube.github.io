@@ -69,9 +69,13 @@ a {
 }
 
 .downloads {
-    height: fit-content;
+    margin-left: -10px;
     background-color: rgb(20, 20, 20);
-    border-radius: 15px;
+    border-radius: 10px;
+    border-style: dashed;
+    width: 98.9vw;
+    border-radius: 20px;
+    padding-bottom: 10px;
 }
 
 nav .buttons {
