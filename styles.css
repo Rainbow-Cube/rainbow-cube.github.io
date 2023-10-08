@@ -12,7 +12,6 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: grid;
 }
-
 nav {
     background-color: rgba(75, 75, 75, 0.486);
     font-size: 30px;
@@ -106,7 +105,12 @@ nav .buttons {
     height: 100vh;
 }
 
-.description {
+.menu {
+    padding-right: 6px;
+}
+
+.tabs {
+    display: flex;
     margin-top: 10px;
     margin-left: auto;
     margin-right: 10px;
