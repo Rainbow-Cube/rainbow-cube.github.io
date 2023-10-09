@@ -1,0 +1,185 @@
+@media (max-width: 600px) {
+
+    html {
+        background-image: url(bg.png);
+        background-color: rgb(20, 20, 20);
+        background-repeat: repeat;
+        background-size: cover;
+        backdrop-filter: blur(0.4rem);
+        backdrop-filter: brightness(0.4);
+        background-size: contain;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: grid;
+        width: 100vw;
+    }
+    nav {
+        background-color: rgba(75, 75, 75, 0.486);
+        font-size: 30px;
+        font-weight: bolder;
+        width: 100%;
+        height: 10vh;
+        align-items: center;
+        border-radius: 5px;
+        display: flex;
+    }
+
+    #navtext {
+        justify-content: center;
+        text-align: center;
+    }
+
+    nav #logo {
+        margin-left: 0.5vw;
+        height: 7vh;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-radius: 5px;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    .main {
+        display: flex;
+    }
+
+    .button {
+        background-color: #FF4F4F;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 4px;
+    }
+    
+    .button:hover {
+        background-color: #8345a0;
+    }
+    
+    .button:active {
+        background-color: #8345a0;
+    }
+    a {
+        color: white;
+    }
+
+    .downloads {
+        background-color: rgb(20, 20, 20);
+        border-radius: 10px;
+        border-style: dashed;
+        width: 100%;
+        border-radius: 20px;
+        padding-bottom: 10px;
+    }
+
+    nav .buttons {
+        position: absolute;
+        display: inline-flex;
+        padding-left: 50%;
+        scale: 0.9;
+    }
+
+    .downloads .button {
+        align-self: center;
+        display: flex;
+        margin-block: auto;
+        margin-left: auto;
+        margin-right: auto;
+        position: static;
+        align-self: center;
+        width: 190px;
+    }
+
+    .downloads #text {
+        font-size: 50px;
+    }
+
+    .main {
+        height: 100vh;
+    }
+
+    .menu {
+        padding-right: 6px;
+    }
+
+    .tabs {
+        display: flex;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: 10px;
+        height: 80vh;
+        width: 50vw;
+        font-size: large;
+        border-radius: 15px;
+        transform: scale(0.8);
+        background-color: rgba(0, 0, 0, 0.459);
+        backdrop-filter: blur(1.5rem);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .description #text {
+        filter: none;
+    }
+
+    footer {
+        text-align: center;
+        font-size: small;
+        display: block;
+        padding-top: 10px;
+        height: 10vh;
+    }
+
+    .supported {
+        display: inline-flex;
+        align-self: center;
+        align-items: center;
+    }
+
+    #supported {
+        transform: scale(2.5);
+        padding: 10px;
+        margin-right: 20px;
+    }
+
+    #supported:last-child {
+        margin-right: 0;
+    }
+
+    .wikibar {
+        display: block;
+        margin: 20px;
+        margin-top: 5px;
+        background-color: rgba(75, 75, 75, 0.486);
+        padding-right: 10px;
+        padding-top: 10px;
+        text-align: center;
+        border-radius: 15px;
+    }
+
+    .wiki {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: 10px;
+        height: fit-content;
+        width: 50vw;
+        font-size: large;
+        border-radius: 15px;
+        transform: scale(0.8);
+        background-color: rgba(0, 0, 0, 0.459);
+        backdrop-filter: blur(1.5rem);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
